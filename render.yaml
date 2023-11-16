@@ -1,3 +1,8 @@
 buildCommand: |
-  python3.7 -m pip install --upgrade pip
-  python3.7 -m pip install -r requirements.txt
+  /usr/local/bin/python3.8 -m pip install --upgrade pip
+  /usr/local/bin/python3.8 -m pip install -r requirements.txt
+  # Additional build steps
+
+env:
+  PYTHON_VERSION: "3.8.17"
+  # Other environment variables specific to your application
