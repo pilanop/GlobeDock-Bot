@@ -120,3 +120,6 @@ image_handler = MessageHandler(
 # Message handling functions
 profanity_handler = MessageHandler(Filters.text & (~Filters.command),
                                    filter_messages)
+url_filter_handler = MessageHandler(Filters.text & (~Filters.command),
+                                    filter_messages)
+
