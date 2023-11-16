@@ -4,7 +4,8 @@ from better_profanity import profanity
 import time
 
 # Custom array of words to be added to the filter
-custom_words = ['tebeda', 'wesha', 'etc.']
+custom_words = ['tebeda', 'wesha', 'jela', 'dedeb', 'ahya', 'shermuta',
+                'koletam', 'kolet', 'tnbatam', 'gmatam', 'Enaten' 'etc.']
 
 
 # Function to update the profanity filter list
@@ -34,4 +35,5 @@ def filter_messages(update: Update, context: CallbackContext):
         # Delete the warning message after 15 seconds
         time.sleep(15)
         context.bot.delete_message(chat_id=message.chat_id,
-                                   message_id=message.message_id + 1)  # Adjust the message_id to match the warning message
+                                   message_id=message.message_id + 1)  #
+        # Adjust the message_id to match the warning message
