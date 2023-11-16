@@ -4,7 +4,7 @@ from message_handler import profanity_handler, image_handler, button
 # imports as per the actual handlers
 
 # Get your token from BotFather
-TOKEN = "6871859255:AAHcDULYGqRVH9nds5v-eCWAOzXP5L4yl3U"
+TOKEN = "6767635981:AAFIxjaq2JCwDs5CuOcnzAZcRvURWlid0aE"
 
 
 def main():
