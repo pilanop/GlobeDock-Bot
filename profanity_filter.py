@@ -4,8 +4,14 @@ from better_profanity import profanity
 import time
 
 # Custom array of words to be added to the filter
-custom_words = ['tebeda', 'wesha', 'jela', 'dedeb', 'ahya', 'shermuta',
-                'koletam', 'kolet', 'tnbatam', 'gmatam', 'Enaten' 'etc.']
+custom_words = ['tebeda', 'wesha', 'jela',
+                'dedeb', 'ahya', 'shermuta',
+                'koletam', 'kolet', 'tnbatam',
+                'gmatam', 'Enaten', 'ደደብ',
+                '🖕🏾', '🖕', 'ተበዳ', 'ትበዳ',
+                'ደነዝ', 'አህያ', 'ሸርሙጣ', 'ጀላ',
+                'ቆለጥ', 'ቆለጣም', 'ግማታም',
+                'ጅል', 'etc.']
 
 
 # Function to update the profanity filter list
