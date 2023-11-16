@@ -1,6 +1,5 @@
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
-from message_handler import profanity_handler, image_handler, button, \
-    url_filter_handler
+from message_handler import profanity_handler, image_handler, button
 
 # imports as per the actual handlers
 
@@ -15,7 +14,6 @@ def main():
     dp.add_handler(profanity_handler)
     dp.add_handler(image_handler)
     dp.add_handler(CallbackQueryHandler(button))
-    dp.add_handler(url_filter_handler)
 
     updater.start_polling()
     updater.idle()
