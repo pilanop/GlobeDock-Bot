@@ -8,7 +8,7 @@ import time
 custom_words = ['tebeda', 'wesha', 'jela',
                 'dedeb', 'ahya', 'shermuta',
                 'koletam', 'kolet', 'tnbatam',
-                'gmatam', 'Enaten', 'ደደብ',
+                'gmatam', 'Enaten', 'denez', 'ደደብ',
                 '🖕🏾', '🖕', 'ተበዳ', 'ትበዳ',
                 'ደነዝ', 'አህያ', 'ሸርሙጣ', 'ጀላ',
                 'ቆለጥ', 'ቆለጣም', 'ግማታም',
