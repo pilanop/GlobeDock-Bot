@@ -2,7 +2,7 @@
 
 ## Profanity Filter
 
-The bot includes a profanity filter to ensure a respectful environment within the group chat. When a user sends a message containing offensive language:
+The bot includes a profanity filter to ensure a respectful environment within the group chat When a user sends a message containing offensive language:
 
 - The bot detects the inappropriate content.
 - Deletes the offensive message.
